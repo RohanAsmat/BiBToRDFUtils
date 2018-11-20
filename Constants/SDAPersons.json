@@ -1,0 +1,313 @@
+[{
+  "item": "sdaperson:JensLehmann",
+  "name": "JensLehmann",
+  "class": "foaf:Person, sdatech:professor "
+}, {
+  "item": "sdaperson:HajiraJabeen",
+  "name": "HajiraJabeen",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:GuenterKniesel",
+  "name": "GuenterKniesel",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:MariaMaleshkova",
+  "name": "MariaMaleshkova",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:AlexanderKister",
+  "name": "AlexanderKister",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:HamedShariatYazdi",
+  "name": "HamedShariatYazdi",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:GiulioNapolitano",
+  "name": "GiulioNapolitano",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:AnisaRula",
+  "name": "AnisaRula",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:IoannaLytra",
+  "name": "IoannaLytra",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:ChristophLange",
+  "name": "ChristophLange",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:SimonScerri",
+  "name": "SimonScerri",
+  "class": "foaf:Person, sdatech:seniorResearcher "
+}, {
+  "item": "sdaperson:GezimSejdiu",
+  "name": "GezimSejdiu",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:LorenzBuehmann",
+  "name": "LorenzBuehmann",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:MohnishDubey",
+  "name": "MohnishDubey",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:HarshThakkar",
+  "name": "HarshThakkar",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:DiegoEsteves",
+  "name": "DiegoEsteves",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:FathoniMusyaffa",
+  "name": "FathoniMusyaffa",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:MousaviNajmeh",
+  "name": "MousaviNajmeh",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:DebanjanChaudhuri",
+  "name": "DebanjanChaudhuri",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:SimonBin",
+  "name": "SimonBin",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:PatrickWestphal",
+  "name": "PatrickWestphal",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:ClausStadler",
+  "name": "ClausStadler",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:KonradHoeffner",
+  "name": "KonradHoeffner",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:MofeedHassan",
+  "name": "MofeedHassan",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:HamidZafar",
+  "name": "HamidZafar",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:ShimaaIbrahim",
+  "name": "ShimaaIbrahim",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:SaharVahdati",
+  "name": "SaharVahdati",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:ElisaMargarethSibarani",
+  "name": "ElisaMargarethSibarani",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:AfshinSadeghi",
+  "name": "AfshinSadeghi",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:IsaiahOnandoMulang",
+  "name": "IsaiahOnandoMulang",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:DenisLukovnikov",
+  "name": "DenisLukovnikov",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:SaidFathalla",
+  "name": "SaidFathalla",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:MichaelGalkin",
+  "name": "MichaelGalkin",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:HebaIbrahim",
+  "name": "HebaIbrahim",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:MojtabaNayyeri",
+  "name": "MojtabaNayyeri",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:ChengjinXu",
+  "name": "ChengjinXu",
+  "class": "foaf:Person, sdatech:phdStudent "
+}, {
+  "item": "sdaperson:SteffenLohmann",
+  "name": "SteffenLohmann",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:DamienGraux",
+  "name": "DamienGraux",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:AsjaFischer",
+  "name": "AsjaFischer",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:NiklasPetersen",
+  "name": "NiklasPetersen",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:MohamedNadjibMami",
+  "name": "MohamedNadjibMami",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:LavdimHalilaj",
+  "name": "LavdimHalilaj",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:IrlanGrangelGonzales",
+  "name": "IrlanGrangelGonzales",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:DiegoCollarana",
+  "name": "DiegoCollarana",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:KuldeepSingh",
+  "name": "KuldeepSingh",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:JewgeniRose",
+  "name": "JewgeniRose",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:AshwiniJayaKumar",
+  "name": "AshwiniJayaKumar",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:MiretteElias",
+  "name": "MiretteElias",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:VitalisWiens",
+  "name": "VitalisWiens",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:SebastianBader",
+  "name": "SebastianBader",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:RostislavNedelchev",
+  "name": "RostislavNedelchev",
+  "class": "foaf:Person, sdatech:associateReseracher "
+}, {
+  "item": "sdaperson:JuliusKaufmann",
+  "name": "JuliusKaufmann",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:NileshChakraborty",
+  "name": "NileshChakraborty",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:GauravMaheshwari",
+  "name": "GauravMaheshwari",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:PriyanshTrivedi",
+  "name": "PriyanshTrivedi",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:JeanHernandez",
+  "name": "JeanHernandez",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:GabrielGimenez",
+  "name": "GabrielGimenez",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:GuillermoBetancourt",
+  "name": "GuillermoBetancourt",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:YersonRoa",
+  "name": "YersonRoa",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:DebayanBanerjee",
+  "name": "DebayanBanerjee",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:MingQu",
+  "name": "MingQu",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:AsifKhan",
+  "name": "AsifKhan",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:PiyushChawla",
+  "name": "PiyushChawla",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:MehdiAli",
+  "name": "MehdiAli",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:MehrdadBozorg",
+  "name": "MehrdadBozorg",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:FirasKassawat",
+  "name": "FirasKassawat",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:MirzaMohtashimAlam",
+  "name": "MirzaMohtashimAlam",
+  "class": "foaf:Person, sdatech:studentAssistant "
+}, {
+  "item": "sdaperson:KathanKashiparekh",
+  "name": "KathanKashiparekh",
+  "class": "foaf:Person, sdatech:intern "
+}, {
+  "item": "sdaperson:AnikethReddy",
+  "name": "AnikethReddy",
+  "class": "foaf:Person, sdatech:intern "
+}, {
+  "item": "sdaperson:FrankNietzsche",
+  "name": "FrankNietzsche",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:BastianHaarmann",
+  "name": "BastianHaarmann",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:HenningPetzka",
+  "name": "HenningPetzka",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:MohamedSherif",
+  "name": "MohamedSherif",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:TiansiDong",
+  "name": "TiansiDong",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:VinayModi",
+  "name": "VinayModi",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:FabrizioOrlandi",
+  "name": "FabrizioOrlandi",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:LuisPauloGarcia",
+  "name": "LuisPauloGarcia",
+  "class": "foaf:Person, sdatech:formerMember "
+}, {
+  "item": "sdaperson:AdrianBajraktari",
+  "name": "AdrianBajraktari",
+  "class": "foaf:Person, sdatech:formerMember "
+}]
