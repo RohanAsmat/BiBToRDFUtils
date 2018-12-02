@@ -1,6 +1,7 @@
 require 'bibtex'
 require './configuration.rb'
 require './Variables.rb'
+require './IOVariables.rb'
 require './HelperBlocks.rb'
 require 'json'
 
@@ -8,13 +9,13 @@ require 'json'
 foafPersons = []
 
 #READING ALREADY EXISTING PERSONS
-file = File.read('../Constants/SDAPersons.json')
+file = File.read(PERSON_PREFIX_FILE)
 existingPersonList = JSON.parse(file)
 
 #Input file for parsing BibTex
 print 'Please provide the path or name to the input file:'
 bibFilePath = gets
-b = BibTeX.open('./sda.bib')
+b = BibTeX.open(BIB_FILE_INPUT)
 arrayLength = b.length
 
 #Input Prefix for the Publications
@@ -41,7 +42,7 @@ ttlFilePath = gets
 #Opening an RDF File to write
 begin
   #Ttl File for writing
-  file = File.open("../Output/sda.ttl", "w")
+  file = File.open(TTL_FILE_OUTPUT, "w")
   #file.write("your text")
 
   #Write Prefixes
@@ -81,8 +82,7 @@ begin
     end
 
     string = item.key.dup
-    replacements = [ ["{", ""], ["}", ""],["'", ""], ["[", ""], ["]", ""], ["\\", ""], ["\"", ""], [":", ""], ["/", ""], ["+", ""], ["?", ""] ]
-    replacements.each {|replacement| string.gsub!(replacement[0], replacement[1])}
+    REPLACEMENT_INSTANCE_ID.each {|replacement| string.gsub!(replacement[0], replacement[1])}
     keyName = item.key.dup
 
     #Write the parsed class type
@@ -140,8 +140,7 @@ begin
             elsif temp == "file" || temp == "url" || temp == "biburl"
 
               string = LESSER_THEN + d[1].to_s + GREATER_THEN
-              replacements = [ ["https\\", "https"], ["http\\", "http"], [" ", ""]  ]
-              replacements.each {|replacement| string.gsub!(replacement[0], replacement[1])}
+              REPLACEMENT_URLS.each {|replacement| string.gsub!(replacement[0], replacement[1])}
 
               #Parsing and Filing the Field Value
               file.write( string +  SPACE + SEMICOLON + NEW_LINE)
@@ -164,8 +163,7 @@ begin
 
               #For linking Cross References
               string =  d[1].to_s
-              replacements = [ ["{", ""], ["}", ""],["'", ""], ["[", ""], ["]", ""], ["\\", ""], ["\"", ""], [":", ""], ["/", ""], ["+", ""] ]
-              replacements.each {|replacement| string.gsub!(replacement[0], replacement[1])}
+              REPLACEMENT_CROSSREF.each {|replacement| string.gsub!(replacement[0], replacement[1])}
               file.write(  prefixPub + string +  SPACE + SEMICOLON + NEW_LINE)
 
             elsif temp == "title" || temp == "year" || temp == "publisher"
@@ -197,8 +195,7 @@ begin
         file.write( LEFTINDENT + property +  SPACE )
         string = d[1].to_s
 
-        replacements = [ ["{", ""], ["}", ""],["'", ""], ["[", ""], ["]", ""], ["\\", ""], ["\"", "'"], ["textsuperscript", ""], ["texttt", ""], ["^", ""]   ]
-        replacements.each {|replacement| string.gsub!(replacement[0], replacement[1])}
+        REPLACEMENT_ALL.each {|replacement| string.gsub!(replacement[0], replacement[1])}
 
         file.write(DOUBLE_QUOTE +  string + DOUBLE_QUOTE +  SPACE + SEMICOLON + NEW_LINE)
       end

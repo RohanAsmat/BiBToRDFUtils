@@ -20,3 +20,9 @@ FAMILYNAME = "familyName"
 FIRSTNAME = "firstName"
 BIBLIOGRAPHICRESOURCE = "dct:BibliographicResource"
 RDFIDENTIFIER = "dct:modified"
+
+#String Parser Replacements
+REPLACEMENT_INSTANCE_ID = [ ["{", ""], ["}", ""],["'", ""], ["[", ""], ["]", ""], ["\\", ""], ["\"", ""], [":", ""], ["/", ""], ["+", ""], ["?", ""] ]
+REPLACEMENT_URLS = [ ["https\\", "https"], ["http\\", "http"], [" ", ""]  ]
+REPLACEMENT_CROSSREF = [ ["{", ""], ["}", ""],["'", ""], ["[", ""], ["]", ""], ["\\", ""], ["\"", ""], [":", ""], ["/", ""], ["+", ""], ["?", ""] ]
+REPLACEMENT_ALL = [ ["{", ""], ["}", ""],["'", ""], ["[", ""], ["]", ""], ["\\", ""], ["\"", "'"], ["textsuperscript", ""], ["texttt", ""], ["^", ""]   ]
